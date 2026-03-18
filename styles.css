@@ -84,6 +84,8 @@ h3 { font-size: 1.3rem; }
 .card { padding: 26px; }
 .card ul { margin: 14px 0 0; padding-left: 18px; }
 .card li { margin-bottom: 8px; }
+.story-card { margin-top: 22px; background: linear-gradient(180deg, rgba(183,255,60,0.08), rgba(255,255,255,0.03)); }
+.story-card h3 { font-size: clamp(1.6rem, 2.4vw, 2.2rem); }
 .muted { color: var(--muted); }
 .tiers .featured { border-color: rgba(183,255,60,0.42); box-shadow: 0 0 0 1px rgba(183,255,60,0.2), 0 24px 70px rgba(0,0,0,0.55); }
 .tier-label {
