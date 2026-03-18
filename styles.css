@@ -72,13 +72,13 @@ h3 { font-size: 1.3rem; }
 .hero-stats strong { display: block; font-size: 1.6rem; color: var(--text); margin-bottom: 6px; }
 .hero-stats span { color: var(--muted); font-size: 0.95rem; }
 .image-frame { padding: 12px; border-radius: 30px; background: linear-gradient(180deg, rgba(255,255,255,0.12), rgba(255,255,255,0.03)); }
-.image-frame img { border-radius: 22px; aspect-ratio: 1 / 1; object-fit: cover; filter: grayscale(1) contrast(1.08); }
+.image-frame img { border-radius: 22px; aspect-ratio: 1 / 1; object-fit: cover; object-position: center top; filter: grayscale(1) contrast(1.08); }
 .glow { box-shadow: 0 0 0 1px rgba(255,255,255,0.05), 0 0 80px rgba(183,255,60,0.08); }
 .hero-collage { display: grid; grid-template-columns: 1fr 0.62fr; gap: 16px; align-items: stretch; }
-.hero-main-photo img { min-height: 100%; }
+.hero-main-photo img { min-height: 100%; object-position: center 18%; }
 .hero-side-stack { display: grid; gap: 16px; }
 .hero-side-stack img {
-  width: 100%; height: calc(50% - 8px); min-height: 180px; object-fit: cover;
+  width: 100%; height: calc(50% - 8px); min-height: 180px; object-fit: cover; object-position: center 20%;
   border-radius: 24px; border: 1px solid var(--card-border); box-shadow: var(--shadow); filter: grayscale(1) contrast(1.04);
 }
 .hero-quote { margin-top: 18px; padding: 20px 22px; border-left: 3px solid var(--accent); background: rgba(255,255,255,0.03); border-radius: 18px; }
